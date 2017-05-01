@@ -26,7 +26,6 @@
           templateUrl: 'html/views/events.html'
         })
         .when('/contactus', {
-          controller: 'ContactusController',
           templateUrl: 'html/views/contactus.html'
         })
         .when('/fooddrives', {

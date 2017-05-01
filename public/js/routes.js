@@ -16,6 +16,9 @@
         .when('/donate', {
           templateUrl: 'html/views/donate.html'
         })
+        .when('/privacy_policy', {
+          templateUrl: 'html/views/privacy_policy.html'
+        })
         .when('/getinvolved', {
           templateUrl: 'html/views/getinvolved.html'
         })

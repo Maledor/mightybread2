@@ -1,7 +1,5 @@
 
 
-
-
 body{
   margin: 0px;
   padding: 0px;
@@ -19,6 +17,9 @@ margin: 0;
 padding: 0px;
 }
 
+foot-col_1 p {
+  color: #fff;
+}
 
 /*
 =================================
@@ -33,6 +34,7 @@ header {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 .donate-button {
   /*background-color: #d0451b;*/
@@ -101,6 +103,7 @@ nav {
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 .topnav a {
   color: #fff;
@@ -209,6 +212,7 @@ Signup
 .signup-wrapper{
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   text-align: center;
 }
 .signup-wrapper h2{
@@ -259,6 +263,7 @@ Home About
 .home-about-wrapper{
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   text-align: center;
 }
 .home-about-wrapper p {
@@ -288,6 +293,7 @@ Partners
 .partners-wrapper{
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   text-align: center;
 }
 .partners-wrapper h2 {
@@ -336,6 +342,7 @@ footer{
 .footer-wrapper{
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -469,8 +476,8 @@ About Us Page
 .about-main-wrapper {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 30px;
   max-width: 1200px;
+  padding-bottom: 30px;
 
 }
 .about-main-wrapper h1 {
@@ -497,9 +504,8 @@ About Us Page
   text-align: left;
 }
 .about-main-wrapper img {
-/*border: 1px solid lightgrey;*/
-width: 47%;
-border: 10px solid white;
+max-width: 500px;
+align-self: center;
 }
 @media screen and (max-width: 1150px) {
    .what-we-do  {
@@ -546,6 +552,7 @@ Map
 .about-maps-wrapper {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   padding-bottom: 50px;
   padding-top: 50px;
   display: flex;
@@ -600,6 +607,7 @@ Stats
 .stats-wrapper {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -684,6 +692,7 @@ Stats
   justify-content: space-around;
   width:80%;
   margin: 0 auto;
+  max-width: 1100px;
   padding-bottom: 30px;
 }
 .meet-team h2 {
@@ -719,6 +728,7 @@ Programs Page
 .programs-main-wrapper {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   border-bottom: 1px solid lightgrey;
 }
 .programs-main-wrapper h1 {
@@ -810,10 +820,12 @@ Programs Page
 .snap-schedule {
   font-family: "Lato";
   padding-bottom: 50px;
+
 }
 .snap-table-wrapper {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 .snap-schedule h2 {
   text-align: center;
@@ -866,7 +878,19 @@ Programs Page
     margin: 0px;
   }
 }
-
+.programs-banner-image {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+  url('../img/programs-main-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 275px;
+  align-items: center;
+  background-position: center;
+}
 
 /*
 ======================================
@@ -882,6 +906,7 @@ Contact Us Page
 .contact-wrapper {
   width: 80%;
   margin: auto;
+  max-width: 1200px;
   display: flex;
   padding: 50px 0;
 }
@@ -988,6 +1013,8 @@ DONATE PAGE
 Stats
 =======================================
 */
+
+/*
 .donate {
   background-color: #eff5e9;
   margin-top: 8px;
@@ -1065,6 +1092,7 @@ Stats
 
     }
 }
+*/
 
 
 
@@ -1157,10 +1185,11 @@ Stats
 }
 .donate-today h1 {
   background-color: #fff;
-  opacity: 0.6;
+  opacity: 0.7;
   padding: 20px;
   font-family: "Lato";
   color: #61adda;
+  letter-spacing: 1px;
 }
 @media screen and (max-width: 1000px) {
    .donate-top-banner   {
@@ -1184,9 +1213,6 @@ Stats
 
 
 
-
-
-
 .donate-top-wrapper {
   width: 80%;
   margin: 0 auto;
@@ -1203,7 +1229,332 @@ Stats
       margin-top: 0px;
     }
 }
+@media screen and (max-width: 500px) {
+  .donate-top-banner {
+  display: none;
+  }
+  .donate-wrap {
+    width: 90%;
+  }
+}
 
+
+/*
+=================================
+=================================
+GET INVOLVED PAGE
+=================================
+=================================
+*/
+
+.get-involved-main-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px
+}
+.get-involved-image-2 {
+  display: none;
+}
+.get-involved-main-wrapper h1 {
+  font-family: "Lato";
+  color: #3c633b;
+  /*color: #603913;*/
+  /*color: #416721:*/
+  font-size: 60px;
+  font-weight: 300;
+  margin-top:40px;
+  margin-bottom: 0px;
+  background-color: #eee;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.get-involved-image-1 {
+  max-width: 425px;
+}
+.get-involved-flex {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.get-involved-main-wrapper p {
+  font-family: "Lato";
+  font-size: 1.3em;
+  color: #333333;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.get-involved-flex p {
+  padding-right: 40px;
+  margin: 0px;
+  align-self: center;
+}
+@media screen and (max-width: 1000px) {
+   .get-involved-flex {
+      flex-direction: column-reverse;
+    }
+    .get-involved-main-wrapper img{
+       align-self: center;
+       max-width: 100%;
+       margin-bottom: 40px;
+     }
+     .get-involved-image-1 {
+       display: none;
+     }
+     .get-involved-image-2 {
+       display: block;
+     }
+     .get-involved-flex p{
+        align-self: center;
+        text-align: center;
+        padding: 0;
+      }
+}
+
+@media screen and (max-width: 500px) {
+  .get-involved-main-wrapper h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 0;
+  }
+}
+
+
+
+/*
+===================================
+===================================
+EVENTS PAGE
+===================================
+===================================
+*/
+
+.events-top-banner{
+  width:80%;
+  margin: 0 auto;
+}
+.events-banner-image {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+  url('../img/event-main-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 275px;
+  align-items: center;
+  background-position: center;
+}
+.donate-today {
+  padding-left: 65%;
+  padding-top: 55px;
+}
+.donate-today h1 {
+  background-color: #fff;
+  opacity: 0.7;
+  padding: 20px;
+  font-family: "Lato";
+  color: #61adda;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 1000px) {
+   .events-top-banner   {
+      width: 100%;
+    }
+}
+
+
+
+
+.events-main-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-bottom: 1px solid lightgrey;
+
+}
+.events-main-wrapper h1 {
+  font-family: "Lato";
+  color: #3c633b;
+  /*color: #603913;*/
+  /*color: #416721:*/
+  font-size: 60px;
+  font-weight: 300;
+  margin-top:50px;
+  margin-bottom: 0px;
+  background-color: #eee;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+
+.events1 p {
+  padding-right: 40px;
+  margin: 0px;
+  align-self: center;
+}
+.events-image {
+  width: 450px;
+}
+.hunger-action-image {
+  width: 400;
+}
+.events1 {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+.events2 {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.events2 p {
+  padding-left: 40px;
+  margin: 0px;
+  align-self: center;
+}
+
+.events-main-wrapper p {
+  font-family: "Lato";
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.no-border {
+  border: none;
+}
+.donate-banner-image {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+  url('../img/programs-main-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 275px;
+  background-position: center;
+}
+@media screen and (max-width: 1000px) {
+   .events-wrapper {
+     display: flex;
+
+   }
+   .events1  {
+      flex-direction: column-reverse;
+      justify-content: center;
+      padding: 25px 0px;
+      text-align: center;
+
+    }
+    .events2  {
+       flex-direction: column;
+       padding: 25px 0px;
+       text-align: center;
+       padding: 0;
+     }
+    .don-col-1 {
+      width: 100%;
+
+    }
+    .don-col-2 {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+}
+
+/*
+================================
+================================
+PRIVACY POLICY PAGE
+================================
+================================
+*/
+.privacy-wrapper {
+  width:  80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  max-width: 1200px;
+}
+.privacy-wrapper h1{
+  font-family: "Lato";
+  color: #3c633b;
+  font-size: 60px;
+  font-weight: 300;
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-color: #eee;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.privacy-wrapper h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  color: #3c633b;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+
+
+}
+.privacy-wrapper p {
+  font-family: "Lato";
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+
+
+
+
+/*
+=============================
+============================
+WISH LIST PAGE
+============================
+============================
+*/
+.wish-wrapper {
+  width:  80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  max-width: 1200px;
+}
+.wish-wrapper h1{
+  font-family: "Lato";
+  color: #3c633b;
+  font-size: 60px;
+  font-weight: 300;
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-color: #eee;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.wish-wrapper h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  color: #3c633b;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 300;
+
+
+}
+.wish-wrapper p {
+  font-family: "Lato";
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
 
 
 /*

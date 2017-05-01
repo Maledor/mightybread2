@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html>
-<!DOCTYPE html>
 <html ng-app='mightybread'>
   <head>
     <meta charset="utf-8">
@@ -32,7 +30,7 @@
       	    <a href="#!/aboutus">About Us</a>
       	    <a href="#!/programs">Programs</a>
       	    <a href="#!/events">Events</a>
-      	    <a href="#!/fooddrives">Food Drives</a>
+      	    <a href="#!/wishlist">Wish List</a>
       	    <a href="#!/getinvolved">Get Involved</a>
       	    <a href="#!/contactus">Contact Us</a>
       	    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -46,7 +44,9 @@
           <footer>
             <div class="footer-wrapper">
               <div class="foot-col_1">
-                <img src="../img/hunger_license_plate.png" alt="Hunger License Plate" >
+                <a href="http://www.imagineplate.com/index.html">
+                  <img src="../img/hunger_license_plate.png" alt="Hunger License Plate" >
+                </a>
                 <p>The sale of each license plate provides 175 meals for those in need.<p>
               </div>
               <div class="foot-col_2">
@@ -70,7 +70,7 @@
       						<li><a href="#!/donate">Donate</a></li>
         					<li><a href="#!/wishlist">Wish List</a></li>
                   <li><a href="#!/getinvolved">Get Involved</a></li>
-        					<li><a href="privacy-policy">Privacy Policy</a></li>
+        					<li><a href="#!/privacy_policy">Privacy Policy</a></li>
                 </ul>
               </div>
             </div>
@@ -100,26 +100,6 @@ function myFunction() {
 		}
 }
 </script>
-
-
-<!-- <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdjHad2Sgo0WZDddh3BSRvHS91nR5Z9ys&callback=initMap">
-  </script> -->
-
-<script>
-  function initMap() {
-  var uluru = {lat: 29.660956, lng: -82.328620};
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 18,
-    center: uluru
-  });
-  var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
-  });
-}
-</script>
-
 
 
   </body>
